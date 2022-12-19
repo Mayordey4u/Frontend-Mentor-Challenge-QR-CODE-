@@ -12,8 +12,14 @@ body{
     box-sizing: border-box;
     font-family: 'Outfit', sans-serif;
     background-color: var(--Lightgray);
-    height: 100vh;
-    
+    min-height: 100vh;
+    display : flex ;
+
+flex-direction:column;
+
+justify-content: center;
+
+align-items: center ;
     
 }
 
@@ -43,9 +49,9 @@ img{
     border-radius:15px;
 }
 
-h2{
+h1{
     padding: 5px;
-    font-size: 25px;
+    font-size: 15px;
     color: var(--Darkblue);
     margin: 5px;
 }
