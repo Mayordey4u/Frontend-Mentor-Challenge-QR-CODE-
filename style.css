@@ -13,25 +13,27 @@ body{
     font-family: 'Outfit', sans-serif;
     background-color: var(--Lightgray);
     min-height: 100vh;
-    display : flex ;
-    flex-direction:column;
+    display: flex;
+    flex-direction: column;
     justify-content: center;
-    align-items: center ;    
+    align-items: center;
+
+    
+    
 }
 
 .card{
-    width: 375px;
+    width: 350px;
     background-color: var(--White);
     border-radius: 15px;
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
-    padding-top:10px ;
-    padding-bottom: 20px;
+    padding:5px ;
     box-shadow:-2px 10px 24px -11px rgba(0,0,0,0.62);
-    margin:;
-
+    margin: 10px;
+    
 }
 
 .container{
@@ -46,18 +48,15 @@ img{
 }
 
 h1{
-    padding: 5px;
-    font-size: 15px;
+    
+    font-size: 1.5rem;
     color: var(--Darkblue);
     margin: 5px;
 }
 
 p{
     color: var(--Grayishblue);
-    font-size: 20px;
+    font-size: 1.2rem;
     margin: 5px;
-    
-    
-    padding: 0 5px;
     
 }
